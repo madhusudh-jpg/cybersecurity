@@ -1,0 +1,21 @@
+!DOCTYPE html>
+<html>
+    <head>
+        <title>DOM EXAMPLE</title>
+    </head>
+    <body>
+        <h1 id="title">hello,world!</h1>
+        <p class ="description">this is a simple DOM example.</p>
+        <button id="changetext">change text</button>
+        <script>
+            const titleElement = document.getElementbyid('title');
+            console.log(titleElement.textcontent);
+
+            const descriptionelements= document.getelementsbyclassname("description");
+            console.log(description elements[0].textcontent);
+
+
+            document.getelementbyid('changetext').addeventlistemer('click',function(){titleelement.textcontent = 'text changed';});
+        </script>
+    </body>
+</html>
